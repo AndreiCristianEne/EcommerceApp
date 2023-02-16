@@ -8,6 +8,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "json-server": "^0.17.1",
     "nuxt": "^3.2.0"
   }
 }

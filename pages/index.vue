@@ -1,6 +1,7 @@
 <template>
     <div>
         <h1>E-commerce App</h1>
+        <p>something</p>
     </div>
 </template>
 
