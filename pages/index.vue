@@ -16,7 +16,7 @@
 <script setup>
     const { data } = await useFetch('/api/server');
     const myProducts = data;
-    console.table(myProducts);
+    console.table(myProducts._rawValue);
 </script>
 
 <style lang="scss" scoped>

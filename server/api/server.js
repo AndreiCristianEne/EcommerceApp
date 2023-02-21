@@ -3,7 +3,5 @@ export default defineEventHandler(async (event) => {
 
   const data = await $fetch(uri);
 
-  // console.log(data);
-
   return data;
 });
